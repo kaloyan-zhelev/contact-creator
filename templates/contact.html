@@ -1,0 +1,20 @@
+<html lang="en">
+<body>
+<form action="{{ url_for('save_contact') }}" method="POST">
+    <h3>Contact Information</h3>
+    <label>Username<br>
+        <input type="text" name="username"/>
+    </label><br>
+    <label>Email<br>
+        <input type="text" name="email"/>
+    </label><br>
+    <label>First name<br>
+        <input type="text" name="first"/>
+    </label><br>
+    <label>Surname<br>
+        <input type="text" name="surname"/>
+    </label><br><br>
+    <input type="submit" value="Save"/><br>
+</form>
+</body>
+</html>
